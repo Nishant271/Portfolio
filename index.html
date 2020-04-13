@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!-- Font awesome CDN -->
+    <script src="https://kit.fontawesome.com/be1be140d7.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <!-- style sheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header> 
+       <div class="logo">
+           <h3 class="logo_name">{NISHANT}</h3>
+       </div>
+       <button class="nav-toggle">
+           <span class="hamburger"></span>
+       </button>
+       <nav class="nav">
+           <ul class="nav__list">
+               <li class="nav__item"><a class="nav_link" href="#home">Home</a></li>
+               <li class="nav__item"><a  class="nav_link" href="#about">About me</a></li>
+               <li class="nav__item"><a class="nav_link" href="#services">My services</a></li>
+               <li class="nav__item"><a class="nav_link" href="#work">My work</a></li>
+               <li class="nav__item"><a class="nav_link" href="htmlPages/contactme.html">Contact me</a></li>
+               <li class="nav__item"><a class="nav_link" href="htmlPages/educationalDetails.html">Academic Details</a></li>
+           </ul>
+       </nav>
+   </header>
+
+   <!-- introduction part -->
+   <section class="intro" id="home">
+       <h1 class="section_title section_title_intro">Hi, I'm <strong>Nishant</strong></h1>
+       
+       <!-- animation start -->
+       <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        
+       </div>
+       <!-- animation end -->
+       <p class="section_subtitle section_subtitle_intro">Front-End Developer</p>
+       <img src="img/dev_img2.png" alt="" class="intro_img">
+   </section>
+
+   <!-- My services -->
+
+   <section class="myservice" id="services">
+       <h2 class="section_title section_title_services">What i do</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Designing</h3>
+            <p> I value simple content structure, clean design patterns, and thoughtful interactions. 
+                Our approach to website design is to create a website that strengthens and ensuring ease of use and simplicity for your audience. </p>
+        </div>
+        <div class="service">
+            <h3>Front-end Developer</h3>
+                <p>I like to code things from scratch, and enjoy bringing ideas to life Using HTML, CSS , and Javascript, I build fast, interactive and user friendly websites and web application according to user requirements. </p>
+            </div>
+        <div class="service">
+            <h3>Share Market investor & Mentor</h3>
+            <p> I am a NCFM certified stock market investor. i like to help people in their invesments plans and capital management.I genuinely care about people, and happy to help them to learn about stock market. </p>
+        </div>
+    </div>
+    <a href="#work" class="btn">My work</a>
+   </section>
+
+
+<!-- About Me -->
+<section class="about_me" id="about">
+<h2 class="section_title section_title_about">Who i am</h2>
+<p class="section_subtitle section_subtitle_about">Designer & web developer</p>
+
+<div class="aboutme_body">
+    <p>I'm a Front-End Developer From Pune, India. </p>
+    <p>As a web developer, I enjoy my work for making web applications, UI designs, animations and creating intuitive, dynamic web applications. I am having 2.8 years of professional experience from Wipro technologies. My primary skills are React.js, Javascript, HTML, CSS.</p>
+</div>
+<img src="img/developer.jpg" alt="" class="about_me_img">
+</section>
+
+<!-- My work -->
+
+<section class="my_work" id="work">
+    <h2 class="section_title section_title_mywork">My work</h2>
+    <p class="section_subtitle section_subtitle_mywork">A selection of my range of work</p>
+
+    <div class="portfolio">
+        <!-- portfolio item-1 -->
+        <a href="htmlPages/Recipe_maker.html" class="portfolio_item">
+            <img class="portfolio_img" src="img/recipe_DP.JPG" alt="">
+        </a>
+        <!-- portfolio item-2 -->
+        <a href="htmlPages/Dicegame.html" class="portfolio_item">
+            <img class="portfolio_img" src="img/Dice_game.JPG" alt="">
+        </a>
+        <!-- portfolio item-3 -->
+        <a href="htmlPages/Todolist.html" class="portfolio_item">
+            <img class="portfolio_img" src="img/TodoList.JPG" alt="">
+        </a>
+        <!-- portfolio item-4 -->
+        <a href="htmlPages/budgetApp.html" class="portfolio_item">
+            <img class="portfolio_img" src="img/budget_App.JPG" alt="">
+        </a>
+        <!-- portfolio item-5 -->
+        <a href="htmlPages/comspec.html" class="portfolio_item">
+            <img class="portfolio_img" src="img/comspec.jpg" alt="">
+        </a>
+        <!-- portfolio item-6 -->
+        <a href="htmlPages/investShala.html" class="portfolio_item">
+            <img class="portfolio_img" src="img/Investshala_logo.JPG" alt="">
+        </a>
+    </div>
+</section>
+
+<!-- footer -->
+<footer class="footer">
+    <ul class="social_list">
+        <li class="social_list_item"><a  class="social_list_link" href="#"><i class="fab fa-facebook"></i>  </a></li>
+        <li class="social_list_item"><a  class="social_list_link" href="#"><i class="fab fa-twitter"></i></a></li>
+        <li class="social_list_item"><a  class="social_list_link" href="#"><i class="fab fa-linkedin"></i></a></li>
+    </ul>
+    <p>All right reserved @2020</p>
+</footer>
+<script type="text/javascript" src="App.js"></script>
+
+
+</body>
+</html>
