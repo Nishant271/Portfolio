@@ -116,6 +116,24 @@ margin: .25em;
     padding: .3em;
 }
 
+.section_subtitle_download{
+    position: absolute;
+    left:3%;
+    bottom: 5%;
+    font-size: 2.5rem;
+    animation: downloadAnim 500ms linear infinite;
+}
+
+@keyframes downloadAnim {
+    0%{transform:  scale(1) }
+    100%{transform:  scale(1.1) }
+}
+
+.section_subtitle_download a{
+    text-decoration: none;
+    color: inherit;
+}
+
 /* navigation ....*/
 .logo{
     max-width: 100px;
